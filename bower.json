@@ -1,11 +1,5 @@
 {
   "name": "purescript-coroutines",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
