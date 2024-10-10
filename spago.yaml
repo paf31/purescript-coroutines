@@ -1,0 +1,31 @@
+package:
+  name: coroutines
+  publish:
+    license: MIT
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-coroutines
+  dependencies:
+    - bifunctors
+    - either
+    - freet
+    - identity
+    - maybe
+    - newtype
+    - parallel
+    - prelude
+    - profunctor
+    - tailrec
+    - transformers
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - aff
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
